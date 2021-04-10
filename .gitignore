@@ -1,0 +1,10 @@
+*.img
+*.o
+*.cfg
+*.zip
+*.tar.gz
+*.7z
+*.vscode
+**/Include/
+**/monami/
+**/fwimage/
