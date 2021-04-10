@@ -63,7 +63,7 @@ We need to define a TSS segment for the CPU.Each CPU needs a separate TSS segmen
 ### 2.6 APIC Timer
 We extend the code to implement a APIC-based periodic timer. As part of the initialization, we need to enable APIC timer and specify an interrupt vector associated with the APIC timer handle. The corresponding interrupt handler simply prints a message and acknowledges the interrupt to APIC.
 
-### Thread Local Storage
+### 2.7 Thread Local Storage
 We have to extend the kernel and user program such that they will support TLS for the user thread. We use GCC-specific constructs such as __thread to declare TLS variables.
 
 ## Assignment 3
